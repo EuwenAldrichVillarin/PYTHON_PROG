@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""open_reaction_scraper.py
-Selenium script to visit all dataset IDs on https://open-reaction-database.org
 
-Usage:
-  python open_reaction_scraper.py --headless
-"""
 
 import time
 import argparse
@@ -738,3 +732,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
